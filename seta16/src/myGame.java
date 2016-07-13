@@ -32,8 +32,8 @@ public class myGame {
 				int digit1 = randomNumbers.nextInt( 9 );
 				int digit2 = randomNumbers.nextInt( 9 );
 				// multiply the two variables and store the result in variable answer 
-				answer = digit1 * digit2;
-				System.out.println("How much is "+ digit1 + " times " + digit2);
+				answer = digit1 + digit2;
+				System.out.println("How much is "+ digit1 + " plus " + digit2);
 				} // end method createQuestion
 				// create method checkResponse to checks if the user answered correctly
 				private void checkResponse( double guess ){
@@ -43,7 +43,7 @@ public class myGame {
 				System.out.println("Wrong answer. Please try again.");
 				}
 				else
-				System.out.println( "Very Good!" );
+				System.out.println( "very good!" );
 				{
 				// to call method createQuestion to display another question 
 					createQuestion();
